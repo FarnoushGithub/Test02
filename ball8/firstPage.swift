@@ -62,7 +62,7 @@ class firstPage: UIViewController {
                     if (i == 7){
                         self.wheelBtn.isEnabled = true
                         self.numberLbl.text = self.getPersianNumber(number: randomLuckyNumber!)
-                        self.wheelBtn.setTitle("شانستو امتحان کن", for: .normal)
+                        self.wheelBtn.setTitle("شانستو امتحان کن!", for: .normal)
                     } else {
                         self.wheelBtn.isEnabled = false
                     }
